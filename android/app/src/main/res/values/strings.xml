@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Multiplatform seed</string>
+    <string name="default_error">Thre was an application error</string>
+</resources>
