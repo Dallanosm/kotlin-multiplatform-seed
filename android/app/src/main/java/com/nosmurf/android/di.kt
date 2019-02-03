@@ -8,13 +8,13 @@ import com.github.salomonbrys.kodein.singleton
 import com.nosmurf.android.error.AndroidErrorHandler
 import com.nosmurf.android.executor.AndroidExecutor
 import com.nosmurf.android.storage.AndroidLocalDataSource
-import com.nosmurf.common.data.datasource.local.LocalDataSource
-import com.nosmurf.common.data.datasource.remote.CommonRemoteDataSource
-import com.nosmurf.common.data.datasource.remote.RemoteDataSource
-import com.nosmurf.common.data.repository.CommonRepository
-import com.nosmurf.common.domain.error.ErrorHandler
-import com.nosmurf.common.domain.executor.Executor
-import com.nosmurf.common.domain.repository.Repository
+import com.nosmurf.common.client.data.datasource.local.LocalDataSource
+import com.nosmurf.common.client.data.datasource.remote.CommonRemoteDataSource
+import com.nosmurf.common.client.data.datasource.remote.RemoteDataSource
+import com.nosmurf.common.client.data.repository.CommonRepository
+import com.nosmurf.common.client.domain.error.ErrorHandler
+import com.nosmurf.common.client.domain.executor.Executor
+import com.nosmurf.common.client.domain.repository.Repository
 
 fun app(context: Context) = Kodein.Module {
     bind<Context>() with singleton { context }

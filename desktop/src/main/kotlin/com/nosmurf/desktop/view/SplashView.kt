@@ -1,8 +1,8 @@
 package com.nosmurf.desktop.view
 
+import com.nosmurf.common.client.presentation.SplashPresenter
+import com.nosmurf.common.client.presentation.SplashView
 import com.nosmurf.desktop.di.errorHandler
-import com.nosmurf.common.presentation.SplashPresenter
-import com.nosmurf.common.presentation.SplashView
 import javafx.beans.property.SimpleBooleanProperty
 import javafx.scene.Parent
 import tornadofx.*

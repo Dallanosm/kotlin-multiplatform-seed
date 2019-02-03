@@ -5,7 +5,7 @@ configurations {
 }
 
 dependencies {
-    expectedBy project(':common')
+    expectedBy project(":common-client")
     implementation "io.ktor:ktor-client-ios:$ktor_version"
     implementation "io.ktor:ktor-client-json-ios:$ktor_version"
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core-native:$coroutines_version"

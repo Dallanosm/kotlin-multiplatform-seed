@@ -1,9 +1,9 @@
 package com.nosmurf.web.presentation.screen
 
+import com.nosmurf.common.client.presentation.SplashPresenter
+import com.nosmurf.common.client.presentation.SplashView
 import com.nosmurf.web.presentation.di.errorHandler
 import com.nosmurf.web.presentation.navigator.Screen
-import com.nosmurf.common.presentation.SplashPresenter
-import com.nosmurf.common.presentation.SplashView
 import react.RBuilder
 import react.RProps
 

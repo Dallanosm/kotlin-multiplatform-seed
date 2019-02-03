@@ -1,4 +1,4 @@
-package com.nosmurf.common.data.datasource.remote
+package com.nosmurf.common.client.data.datasource.remote
 
 import io.ktor.client.HttpClient
 import io.ktor.client.features.json.JsonFeature
@@ -13,7 +13,7 @@ class CommonRemoteDataSource : RemoteDataSource {
     private val client: HttpClient = HttpClient {
         install(JsonFeature) {
             serializer = KotlinxSerializer().apply {
-                
+
             }
         }
     }

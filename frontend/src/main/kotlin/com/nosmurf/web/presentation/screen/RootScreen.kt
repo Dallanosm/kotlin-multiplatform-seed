@@ -1,6 +1,6 @@
 package com.nosmurf.web.presentation.screen
 
-import com.nosmurf.common.presentation.Presenter
+import com.nosmurf.common.client.presentation.Presenter
 import react.RComponent
 import react.RProps
 import react.RState

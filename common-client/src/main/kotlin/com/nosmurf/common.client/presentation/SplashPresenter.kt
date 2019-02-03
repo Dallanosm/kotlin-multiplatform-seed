@@ -1,9 +1,9 @@
-package com.nosmurf.common.presentation
+package com.nosmurf.common.client.presentation
 
-import com.nosmurf.common.domain.error.ErrorHandler
+import com.nosmurf.common.client.domain.error.ErrorHandler
 
 class SplashPresenter(view: SplashView, errorHandler: ErrorHandler) :
-    Presenter<SplashView>(view = view, errorHandler = errorHandler) {
+        Presenter<SplashView>(view = view, errorHandler = errorHandler) {
 
     override fun initialize() {
 

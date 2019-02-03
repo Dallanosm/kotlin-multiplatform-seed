@@ -9,7 +9,7 @@ import com.github.salomonbrys.kodein.KodeinInjector
 import com.github.salomonbrys.kodein.lazy
 import com.nosmurf.android.App
 import com.nosmurf.android.extensions.toast
-import com.nosmurf.common.presentation.Presenter
+import com.nosmurf.common.client.presentation.Presenter
 
 abstract class RootActivity<out V : Presenter.View> : AppCompatActivity(), KodeinInjected, Presenter.View {
 

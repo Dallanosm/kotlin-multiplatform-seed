@@ -5,8 +5,8 @@ import com.github.salomonbrys.kodein.bind
 import com.github.salomonbrys.kodein.instance
 import com.github.salomonbrys.kodein.provider
 import com.nosmurf.android.R
-import com.nosmurf.common.presentation.SplashPresenter
-import com.nosmurf.common.presentation.SplashView
+import com.nosmurf.common.client.presentation.SplashPresenter
+import com.nosmurf.common.client.presentation.SplashView
 
 class SplashActivity : RootActivity<SplashView>(), SplashView {
 

@@ -1,7 +1,8 @@
 package com.nosmurf.android.storage
 
 import android.content.Context
-import com.nosmurf.common.data.datasource.local.LocalDataSource
+import com.nosmurf.common.client.data.datasource.local.LocalDataSource
+
 
 class AndroidLocalDataSource(context: Context) : LocalDataSource {
 

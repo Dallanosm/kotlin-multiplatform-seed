@@ -43,7 +43,7 @@ android {
 }
 
 dependencies {
-    expectedBy project(':common')
+    expectedBy project(":common-client")
 
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'com.android.support:multidex:1.0.3'

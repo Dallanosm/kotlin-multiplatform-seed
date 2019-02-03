@@ -23,7 +23,7 @@ repositories {
 }
 
 dependencies {
-    expectedBy project(":common")
+    expectedBy project(":common-client")
 
     compile "org.jetbrains.kotlin:kotlin-stdlib-js:$kotlin_version"
     compile "org.jetbrains.kotlinx:kotlinx-serialization-runtime-js:$serialization_version"

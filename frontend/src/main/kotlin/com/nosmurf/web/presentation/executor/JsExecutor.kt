@@ -1,6 +1,6 @@
 package com.nosmurf.web.presentation.executor
 
-import com.nosmurf.common.domain.executor.Executor
+import com.nosmurf.common.client.domain.executor.Executor
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.Dispatchers
 

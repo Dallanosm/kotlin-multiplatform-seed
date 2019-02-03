@@ -1,4 +1,4 @@
-package com.nosmurf.common.domain.executor
+package com.nosmurf.common.client.domain.executor
 
 import kotlinx.coroutines.CoroutineDispatcher
 
