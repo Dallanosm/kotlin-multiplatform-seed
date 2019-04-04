@@ -1,14 +1,22 @@
-rootProject.name = 'multiplatform-seed'
+pluginManagement {
+    resolutionStrategy {
+        eachPlugin {
+            if (requested.id.id == "kotlin-multiplatform") {
+                useModule("org.jetbrains.kotlin:kotlin-gradle-plugin:${requested.version}")
+            }
+            if (requested.id.id == "kotlinx-serialization") {
+                useModule("org.jetbrains.kotlin:kotlin-serialization:${requested.version}")
+            }
+        }
+    }
+}
 
 enableFeaturePreview('GRADLE_METADATA')
 
-include 'backend'
+rootProject.name = 'kotlin-multiplatform-seed'
+
 include 'common'
-include 'frontend'
-include 'desktop'
-include 'ios'
-
-if (INCLUDE_ANDROID == "true") {
-    include 'android', 'android:app'
-}
-
+include 'common-mobile'
+include 'backend'
+include 'app'
+include 'js'

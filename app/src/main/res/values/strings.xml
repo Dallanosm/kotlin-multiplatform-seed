@@ -1,0 +1,5 @@
+<resources>
+    <string name="maps_key">MPP_SEED_NAME</string>
+    <string name="retry">Retry</string>
+
+</resources>
